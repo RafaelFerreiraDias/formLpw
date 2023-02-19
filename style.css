@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-145deg, #A98467, #6C584C);
+    display: flex;
+    justify-content: center;
+}
+.form {
+    background-color: #DDE5B6;
+    border-radius: 10px;
+    margin-top: 8rem;
+    border: 5px solid #000;
+    box-shadow: 5px 5px #000;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: min-content;
+}
+.send {
+    padding: 10px;
+}
+.send label {
+    color: #6b705c;
+    font-size: 2rem;
+}
+.send input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px 15px 15px 5px;
+}
+#title {
+    margin-top: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #A98467;
+}
+#sub {
+    text-align: center;
+    font-size: 2rem;
+}
+#sub label, input{
+    margin-left: 10px;
+}
+form {
+    padding: 30px 40px;
+}
+#btn {
+    margin-top: 2rem;
+    align-self: center;
+    font-size: 1.6rem;
+    width: 40%;
+    border-radius: 15px;
+    padding: 5px;
+    border: 2px solid #000;
+    box-shadow: 2px 2px #000;
+    background-color: #F0EAD2;
+}
