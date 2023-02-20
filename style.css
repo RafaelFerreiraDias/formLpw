@@ -14,17 +14,20 @@ body {
     justify-content: center;
 }
 .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #DDE5B6;
     border-radius: 10px;
     margin-top: 8rem;
     border: 5px solid #000;
     box-shadow: 5px 5px #000;
     font-size: 1.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 400px;
     height: min-content;
+}
+h2 {
+    text-align: center;
 }
 .send {
     padding: 10px;
@@ -46,18 +49,22 @@ body {
     color: #A98467;
 }
 #sub {
-    text-align: center;
     font-size: 2rem;
 }
 #sub label, input{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 form {
     padding: 30px 40px;
 }
+.ir {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 #btn {
-    margin-top: 2rem;
-    align-self: center;
+    margin:10px;
+    position: relative;
     font-size: 1.6rem;
     width: 40%;
     border-radius: 15px;
