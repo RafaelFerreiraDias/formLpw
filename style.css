@@ -73,3 +73,22 @@ form {
     box-shadow: 2px 2px #000;
     background-color: #F0EAD2;
 }
+#btn:hover{
+    animation: expand .3s forwards;
+}
+#btn:not(:hover) {
+    animation: voltar .3s  ease-in-out forwards;
+}
+@keyframes expand {
+   to {
+       width: 60%;
+   }
+}
+@keyframes voltar {
+    from {
+        width: 60%;
+    }
+    to {
+        width: 40%;
+    }
+}
